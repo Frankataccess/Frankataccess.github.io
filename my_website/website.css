@@ -288,3 +288,43 @@ header.sticky{
     gap:  2.3rem;
     margin-top: 4.2rem;
 }
+.row img{
+    height: auto;
+    width: 100%;
+    border-radius: 28px;
+    margin-bottom: 1.4rem;
+}
+.row{
+    background: #2d343f;
+    border-radius: 28px; 
+    border: 1px solid transparent;
+    box-shadow: 0 0 5px var(--main-color);
+    padding: 20px;
+    transition: all .50s ease;
+}
+.row:hover{
+    border: 1px solid var(--main-color);
+    transform: translateY(-10px) scale(1.03);
+}
+
+.main-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+.row h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--other-color);
+}
+.row i {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    font-size: 17px;
+    border-radius: 50%;
+    color: var(--text-color)
+}
