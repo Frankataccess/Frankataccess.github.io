@@ -10,16 +10,24 @@
 
 :root {
     /*Timber wolf*/
-    --text-color: #7E8987;
+    --text-color: #E1FFE3;
     --bg-color: #1b1f24;
     --second-bg-color: #22282f;
-    --main-color: #a751fc;
+    --main-color: #08C018;
     --other-color: #c3cad5;
-    --btn-color:#5179fc;
+    --btn-color:#000000;
 
     --h1-font: 4.5rem;
     --h2-font: 2.9rem;
     --p-font: 1rem;
+
+    /*blue pallete
+    #0C0032
+    #190061
+    #240090
+    #3500D3
+    #282828
+    */
 }
 
 body {
